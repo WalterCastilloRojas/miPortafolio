@@ -31,7 +31,6 @@
   /* background colors */
   --bg-white: #fcfcfc;
   --bg-smoky-black: #050709;
-  --bg-yellow: rgb(252, 252, 233);
 
   /**
    * SPACING
@@ -386,6 +385,8 @@ a.logo {
 
 #main .container .main__container__title {
   font-size: 5.5rem;
+  font-weight:400;
+  text-transform:uppercase;
 }
 
 #main .container .main__container__title__description {
@@ -481,6 +482,8 @@ a.logo {
   margin: auto;
   padding-top: 0rem;
   padding-bottom: 3.5rem;
+
+
 }
 
 #about .container {
@@ -533,10 +536,11 @@ img {
 
 /** TABLET AND DESKTOP ABOUT SECTION**/
 @media (min-width: 800px) {
-  #about .container {
+  #about 
+  .container {
     display: flex;
     flex-direction: row;
-
+    gap:30px;
   }
 }
 
@@ -609,7 +613,7 @@ img {
 }
 
 /*-----------------------------------*\
- #HABILIDADES
+#Servicios
 \*-----------------------------------*/
 #habilidades {
   width: 94%;
@@ -617,8 +621,7 @@ img {
   padding-top: 0rem;
   padding-bottom: 3.5rem;
 }
-
-#habilidades .firstContainer__h {
+ .firstContainer__h {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -674,7 +677,8 @@ img {
 #habilidades .stroke:hover {
   color: black;
   -webkit-text-fill-color: black;
-  transition: var(--transition-3);
+  transition: ease;
+  transition-delay: 1s;
   cursor: pointer;
 }
 
