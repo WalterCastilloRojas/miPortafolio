@@ -807,6 +807,7 @@ img {
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin:auto;
   gap: 20px;
 }
 
@@ -814,6 +815,7 @@ img {
   width: 100%;
   display: flex;
   flex-direction: column;
+  margin:auto;
   gap: 20px;
   margin-top: 2rem;
 }
